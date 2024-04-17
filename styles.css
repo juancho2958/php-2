@@ -1,0 +1,137 @@
+/* css for AddProduct */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(222, 222, 222); 
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.map{
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; 
+    align-items: center;
+}
+
+header .logo {
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+header .logo img {
+    max-width: 150px;
+    display: block;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: center;
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px 0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.content-container h2 {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; 
+}
+
+.content-container p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.content-container img {
+    max-width: 100%;
+    border: 4px solid #ffd700;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, border-color 0.3s; 
+}
+
+/* Hover effect */
+.content-container img:hover {
+    transform: scale(1.05); 
+    border-color: #ffdf00; 
+}
+.ka {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ka h2,
+.ka p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.container > div {
+    margin-top: 50px;
+}
+
+.ka img {
+    max-width: 250px; 
+    border: 2px solid #FFD700; 
+    border-radius: 8px; 
+    transition: transform 0.3s ease; 
+    background-color: gray;
+}
+
+.ka img:hover {
+    transform: scale(1.1); 
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
